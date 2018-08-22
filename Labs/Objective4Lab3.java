@@ -9,10 +9,10 @@ public class Objective4Lab3 {
       userNum = scanner.nextInt();
 
     if ( userNum > 0 ) {
-      System.out.println(userNum + " is greater than " + 0);
+      System.out.println("The number is positive");
     }
     if ( userNum < 0) {
-      System.out.println(userNum + " is less than " + 0);
+      System.out.println("The numer is negative");
     }
     if (userNum == 0) {
       System.out.println(userNum + " is equal to " + 0);
